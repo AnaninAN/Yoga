@@ -1,0 +1,41 @@
+.programm-content {
+  margin-top: 120px;
+}
+
+.programm-content__title {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 600px;
+}
+
+.programm-content img {
+  padding: 30px;
+  border-radius: 13%;
+}
+
+.programm-content__accordion {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.accordion__header > button {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.accordion__video {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion__video video {
+  width: 530px;
+  height: 300px;
+}

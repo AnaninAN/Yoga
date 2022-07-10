@@ -1,0 +1,45 @@
+header .header-wrapper {
+  height: 100vh;
+}
+
+header {
+  position: relative;
+  background: linear-gradient(0.25turn, #9ed4eb, #f0d2b1);
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/img/Elena.png') no-repeat;
+  width: 30%;
+  height: 120%;
+  top: 100px;
+  right: 150px;
+
+  background-size: 85% 85%;
+}
+
+.header-wrapper {
+  z-index: 0;
+  background: linear-gradient(#fbfdfd00, #ffffff);
+}
+
+.header-title {
+  font-size: 70px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.15;
+  color: rgb(39, 56, 124);
+  border-color: transparent;
+  padding-top: 200px;
+}
+
+.header-text {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.4;
+  color: rgb(65, 61, 61);
+  border-color: transparent;
+  padding-top: 25px;
+}

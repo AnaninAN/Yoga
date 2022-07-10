@@ -1,0 +1,51 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .programm-content__title {
+    font-size: 30px;
+  }
+
+  .programm-content img {
+    padding: 8px;
+    border-radius: 13%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .programm-content {
+    margin-top: 100px;
+  }
+
+  .programm-content__title {
+    font-size: 24px;
+  }
+
+  .programm-content img {
+    padding: 8px;
+    border-radius: 13%;
+  }
+
+  .accordion__header > button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .accordion__video video {
+    width: 424px;
+    height: 240px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
