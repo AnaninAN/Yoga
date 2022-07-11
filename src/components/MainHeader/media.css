@@ -1,11 +1,27 @@
 /*==========  Desktop First Method  ==========*/
 
+@media only screen and (max-width: 1400px) {
+  .header__elena {
+    width: 29%;
+    right: 80px;
+    top: 120px;
+  }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .header__elena {
+    width: 25%;
+    top: 250px;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .header__elena {
+    width: 35%;
+    top: 480px;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -21,32 +37,39 @@
     font-size: 25px;
     padding-top: 10px;
   }
+
+  .header__elena {
+    width: 40%;
+    right: 80px;
+    top: 300px;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .header-title {
     font-size: 30px;
-    line-height: 1.15;
-    color: rgb(39, 56, 124);
-    padding-top: 130px;
+    padding-top: 110px;
   }
 
   .header-text {
     font-size: 22px;
   }
+
+  .header__elena {
+    width: 50%;
+    right: 100px;
+    top: 250px;
+  }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .header-title {
-    font-size: 30px;
-    line-height: 1.15;
-    color: rgb(39, 56, 124);
-    padding-top: 110px;
-  }
-
   .header-text {
     font-size: 19px;
+  }
+
+  .header__elena {
+    width: 40%;
   }
 }

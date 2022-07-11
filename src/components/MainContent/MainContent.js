@@ -1,21 +1,20 @@
 import './MainContent.css'
 import './media.css'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Carousel, Button } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
 import { PROGRAMM_ROUTE } from '../../utils/consts'
 import { THEME } from '../../theme'
 
-export const MainContent = () => {
-  // eslint-disable-next-line
-  const [item, setItem] = useState([
-    { id: '1', alt: 'First slide', title: 'Carousel1.jpg' },
-    { id: '2', alt: 'Second slide', title: 'Carousel2.jpg' },
-    { id: '3', alt: 'Third slide', title: 'Carousel3.jpg' },
-  ])
+const item = [
+  { id: '1', alt: 'First slide', title: 'Carousel1.jpg' },
+  { id: '2', alt: 'Second slide', title: 'Carousel2.jpg' },
+  { id: '3', alt: 'Third slide', title: 'Carousel3.jpg' },
+]
 
+export const MainContent = () => {
   const renderItem = item.map(({ id, alt, title }) => (
     <Carousel.Item key={id}>
       <img
@@ -28,7 +27,7 @@ export const MainContent = () => {
 
   return (
     <article className="main-content">
-      <Container>
+      <Container className="main-container">
         <div className="main-content__title">Моя авторская программа</div>
         <div className="main-content__carousel">
           <Carousel fade>{renderItem}</Carousel>

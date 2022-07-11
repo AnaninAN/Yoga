@@ -4,17 +4,16 @@ import './media.css'
 import photo1 from '../../assets/img/Programm1.jpg'
 import photo2 from '../../assets/img/Programm2.jpg'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Row, Col, Accordion } from 'react-bootstrap'
 
-export const ProgrammContent = () => {
-  // eslint-disable-next-line
-  const [item, setItem] = useState([
-    { id: '1', name: 'Разминка', title: 'Video1.mp4', poster: 'Poster1.jpg' },
-    { id: '2', name: 'День 1', title: 'Video1.mp4', poster: 'Poster2.jpg' },
-    { id: '3', name: 'День 2', title: 'Video1.mp4', poster: 'Poster2.jpg' },
-  ])
+const item = [
+  { id: '1', name: 'Разминка', title: 'Video1.mp4', poster: 'Poster1.jpg' },
+  { id: '2', name: 'День 1', title: 'Video1.mp4', poster: 'Poster2.jpg' },
+  { id: '3', name: 'День 2', title: 'Video1.mp4', poster: 'Poster2.jpg' },
+]
 
+export const ProgrammContent = () => {
   const renderItem = item.map(({ id, name, title, poster }) => (
     <Accordion.Item eventKey={id} key={id}>
       <Accordion.Header className="accordion__header">{name}</Accordion.Header>

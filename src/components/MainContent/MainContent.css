@@ -3,6 +3,7 @@
 }
 
 .main-content__title {
+  z-index: 0;
   margin: 0 auto;
   margin-bottom: 10px;
   font-size: 40px;

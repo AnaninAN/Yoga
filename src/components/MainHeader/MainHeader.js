@@ -1,8 +1,6 @@
 import './MainHeader.css'
 import './media.css'
 
-//import Elena from '../../assets/img/Elena.png'
-
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
@@ -10,7 +8,7 @@ export const MainHeader = () => {
   return (
     <header>
       <div className="header-wrapper">
-        <Container>
+        <Container className="header-container">
           <div className="header-title">
             Привет, меня зовут <br />
             Ананьина Елена!

@@ -1,11 +1,12 @@
 import React from 'react'
 
+import { Layout } from '../components/Layout'
 import { ProgrammContent } from '../components/ProgrammContent'
 
 export const ProgrammPage = () => {
   return (
-    <React.Fragment>
+    <Layout>
       <ProgrammContent />
-    </React.Fragment>
+    </Layout>
   )
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 
+import { Layout } from '../components/Layout'
 import { AboutContent } from '../components/AboutContent'
 
 export const AboutPage = () => {
   return (
-    <React.Fragment>
+    <Layout>
       <AboutContent />
-    </React.Fragment>
+    </Layout>
   )
 }

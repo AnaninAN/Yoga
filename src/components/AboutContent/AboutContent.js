@@ -1,4 +1,5 @@
 import './AboutContent.css'
+import './media.css'
 
 import React from 'react'
 import { Container } from 'react-bootstrap'
